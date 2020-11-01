@@ -1,0 +1,65 @@
+/* Animal Trading Card Project - styles.css */
+.animal-card-main {
+  border-color:black;
+  border-width:10px;
+  border-style:solid;
+  padding:0px;
+  width:330px;
+  margin:5px;
+  border-radius: 20px;
+  background-image:url("back1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+  box-shadow: 5px 10px 6px #666666;
+}
+
+.animal-card-main img {
+  margin:10px;
+  border-color:white;
+  border-width:5px;
+  border-style:solid;
+  border-radius: 20px;
+}
+
+.animal-card-info {
+  border-color:white;
+  border-width:5px;
+  border-style:solid;
+  border-radius: 20px;
+  padding:10px;
+  width:278px;
+  margin:10px;
+  color:black;
+  background-color:#ddd;
+  opacity: 0.9;
+}
+
+.animal-card-info ul {
+  list-style-type: none;
+  padding-left:0;
+}
+
+.animal-card-info li span{
+  font-weight:bold;
+}
+
+.interesting-fact{
+  font-style:italic;
+}
+
+.animal-card-title {
+  font-family: 'Fredoka One', serif;
+  font-size: 32px;
+  text-shadow: 4px 4px 4px #999;
+  text-align:left;
+  color:#333;
+  margin: 10px;
+  border-width:5px;
+  border-style:solid;
+  border-radius: 20px;
+  padding:10px;
+  border-color:white;
+  background-color:#ddd;
+  opacity: 0.9;
+}
